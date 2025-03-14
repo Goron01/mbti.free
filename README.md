@@ -1,8 +1,5 @@
 # MBTI 性格测试 / MBTI Personality Test
 
-[English Version](#english-version) | [中文版本](#中文版本)
-
-## 中文版本
 
 ### 项目介绍
 
@@ -74,74 +71,3 @@ npm run preview
      alt="wechat" 
      width="300" 
      style="display: block; margin: 0 auto;">
-
-
-## English Version
-
-### Project Introduction
-
-MBTI Personality Test is a web application built with React and Vite that provides Myers-Briggs Type Indicator (MBTI) testing functionality. This test helps users gain deeper insights into their personality traits, thinking patterns, behavioral tendencies, and interpersonal interactions.
-
-### Features
-
-- **Complete MBTI Assessment**: Includes multiple carefully designed questions to comprehensively evaluate personality traits
-- **Real-time Progress Tracking**: Displays completion progress and number of answered questions during the test
-- **Detailed Result Analysis**: Provides comprehensive personality type analysis upon completion, including:
-  - Detailed descriptions of all 16 MBTI personality types
-  - Preference levels across four dimensions (E/I, S/N, T/F, J/P)
-  - Personality trait strength evaluation
-- **User-friendly Interface**: Clean and intuitive design for a smooth testing experience
-- **Responsive Layout**: Adapts to various device screen sizes
-
-### Technology Stack
-
-- **React 19**: JavaScript library for building user interfaces
-- **Vite 6**: Modern frontend build tool offering extremely fast development experience
-- **Ant Design 5.24.3**: Enterprise-class UI design language and React component library
-- **React Router 7.3.0**: Declarative routing for React applications
-
-### Quick Start
-
-#### Install Dependencies
-
-```bash
-npm install
-```
-
-#### Start Development Server
-
-```bash
-npm run dev
-```
-
-#### Build for Production
-
-```bash
-npm run build
-```
-
-#### Preview Production Build
-
-```bash
-npm run preview
-```
-
-### Project Structure
-
-```
-├── public/             # Static assets
-├── src/                # Source code
-│   ├── assets/         # Images and other assets
-│   ├── components/     # React components
-│   │   ├── Home.jsx    # Home page component
-│   │   ├── Test.jsx    # Test page component
-│   │   └── Result.jsx  # Results page component
-│   ├── data/           # Data files
-│   │   └── questions.js # Test questions
-│   ├── App.jsx         # Main application component
-│   ├── main.jsx        # Application entry point
-│   └── index.css       # Global styles
-├── index.html          # HTML template
-└── package.json        # Project configuration and dependencies
-```
-
