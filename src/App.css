@@ -1,0 +1,267 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 通用卡片样式 */
+.home-card,
+.test-card,
+.result-card {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(149, 157, 165, 0.15);
+  padding: 32px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.home-card:hover,
+.test-card:hover,
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(149, 157, 165, 0.2);
+}
+
+/* 首页样式 */
+.home-container {
+  width: 100%;
+}
+
+.home-container h1 {
+  color: #2e3c50;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.home-container .ant-typography {
+  color: #5a6a7e;
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 1.8;
+}
+
+.home-container .ant-btn {
+  height: 48px;
+  padding: 0 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.home-container .ant-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(24, 144, 255, 0.2);
+}
+
+/* 测试页面样式 */
+.test-container {
+  width: 100%;
+}
+
+.test-card .ant-progress {
+  margin-bottom: 24px;
+  height: 8px;
+}
+
+.test-card h4 {
+  color: #2e3c50;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.test-card .ant-typography {
+  color: #2e3c50;
+  font-size: 18px;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.test-card .ant-radio-wrapper {
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid #e8eef4;
+  margin-bottom: 14px;
+  transition: all 0.2s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.test-card .ant-radio-wrapper:hover {
+  background-color: #f0f7ff;
+  border-color: #1890ff;
+}
+
+.test-card .ant-radio-wrapper-checked {
+  background-color: #f0f7ff;
+  border-color: #1890ff;
+}
+
+.test-card .ant-btn {
+  height: 40px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.test-card .ant-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 结果页面样式 */
+.result-container {
+  width: 100%;
+}
+
+.result-card h1 {
+  color: #2e3c50;
+  font-size: 48px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.result-card h3 {
+  color: #5a6a7e;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.result-card .ant-typography {
+  color: #5a6a7e;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.result-card .ant-divider {
+  margin: 32px 0;
+  color: #2e3c50;
+  font-weight: 500;
+}
+
+.result-card .ant-progress {
+  margin: 8px 0 16px;
+  height: 8px;
+}
+
+.result-card .ant-btn {
+  height: 40px;
+  border-radius: 8px;
+  margin: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.result-card .ant-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 576px) {
+  .app-container {
+    padding: 20px 16px;
+  }
+  
+  .home-card,
+  .test-card,
+  .result-card {
+    padding: 24px 16px;
+    border-radius: 12px;
+  }
+  
+  .home-container h1 {
+    font-size: 28px;
+  }
+  
+  .test-card .ant-typography {
+    font-size: 16px;
+  }
+  
+  .result-card h1 {
+    font-size: 36px;
+  }
+  
+  .test-card .ant-radio-wrapper {
+    padding: 12px 14px;
+  }
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.test-card .ant-radio-wrapper .ant-radio {
+  display: flex;
+  align-items: center;
+}
+
+.test-card .ant-radio-wrapper .ant-radio + span {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
