@@ -71,17 +71,6 @@ npm run preview
 └── package.json        # 项目配置和依赖
 ```
 
-### 未来计划
-
-- 优化用户界面
-- 增加更多测试问题
-- 完善结果分析
-- 添加保存测试结果功能
-- 支持多语言
-- 添加用户账户系统
-- 历史测试结果比较
-- 社交分享功能
-- 专业分析报告生成
 
 ## English Version
 
@@ -152,14 +141,3 @@ npm run preview
 └── package.json        # Project configuration and dependencies
 ```
 
-### Future Plans
-
-- Enhance user interface
-- Add more test questions
-- Improve result analysis
-- Add functionality to save test results
-- Support multiple languages
-- Implement user account system
-- Enable historical test result comparison
-- Add social sharing features
-- Generate professional analysis reports
