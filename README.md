@@ -1,20 +1,24 @@
-# MBTI 性格测试 / MBTI Personality Test
+# mbti.free
+
+### 项目自述
+市面上的MBTI测试基本都是辛辛苦苦做了几十道题，出结果的时候就跳转到付费，主打割韭菜，所以我写了一个MBTI测试系统，完全免费并共享开源，可自己部署无限使用。如果喜欢，可在下方打赏我，万分感谢！
+
+### 项目截图
+<img src="https://github.com/user-attachments/assets/28fa0c1d-d325-4cc8-bb26-ebe52eff8d95" 
+     alt="wechat" 
+     width="500" 
+     style="display: block; margin: 0 auto;">
+
+<img src="https://github.com/user-attachments/assets/972ea3c8-310c-4fb2-95f8-7ffc81fc3c56" 
+     alt="wechat" 
+     width="300" 
+     style="display: block; margin: 0 auto;">
+
 
 
 ### 项目介绍
 
 MBTI性格测试是一个基于React和Vite构建的Web应用，提供迈尔斯-布里格斯类型指标(MBTI)测试功能。该测试可以帮助用户深入了解自己的性格特点、思维方式、行为模式以及与他人的互动方式。
-
-### 功能特点
-
-- **完整的MBTI测试**：包含多个精心设计的问题，全面评估用户的性格特征
-- **实时进度跟踪**：测试过程中显示完成进度和已回答问题数量
-- **详细的结果分析**：测试完成后提供完整的性格类型分析，包括：
-  - 16种MBTI性格类型的详细描述
-  - 四个维度(E/I, S/N, T/F, J/P)的倾向程度
-  - 性格特点强度评估
-- **用户友好界面**：简洁直观的设计，流畅的测试体验
-- **响应式布局**：适配各种设备屏幕尺寸
 
 ### 技术栈
 
@@ -31,22 +35,16 @@ MBTI性格测试是一个基于React和Vite构建的Web应用，提供迈尔斯-
 npm install
 ```
 
-#### 启动开发服务器
+#### 启动服务器
 
 ```bash
 npm run dev
 ```
 
-#### 构建生产版本
+#### 打开网页
 
 ```bash
-npm run build
-```
-
-#### 预览生产构建
-
-```bash
-npm run preview
+http://localhost:2046/
 ```
 
 ### 项目结构
@@ -67,7 +65,9 @@ npm run preview
 ├── index.html          # HTML模板
 └── package.json        # 项目配置和依赖
 ```
-<img src="https://github.com/user-attachments/assets/47b0bbcc-a55c-496b-bab0-5c4e1dfc14fe" 
+
+### 感谢打赏
+<img src="https://github.com/user-attachments/assets/9608aded-341b-427c-97e7-678d1e68c101" 
      alt="wechat" 
      width="300" 
      style="display: block; margin: 0 auto;">
