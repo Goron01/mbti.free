@@ -70,6 +70,7 @@ npm run preview
 ├── index.html          # HTML模板
 └── package.json        # 项目配置和依赖
 ```
+![wechat](https://github.com/user-attachments/assets/47b0bbcc-a55c-496b-bab0-5c4e1dfc14fe)
 
 
 ## English Version
